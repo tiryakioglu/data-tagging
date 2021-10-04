@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C417A5392700E6FE00258856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417A5382700E6FE00258856 /* AppDelegate.swift */; };
+		C417A53B2700E6FE00258856 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417A53A2700E6FE00258856 /* SceneDelegate.swift */; };
+		C417A53D2700E6FE00258856 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417A53C2700E6FE00258856 /* ViewController.swift */; };
+		C417A5402700E6FE00258856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C417A53E2700E6FE00258856 /* Main.storyboard */; };
+		C417A5422700E6FE00258856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C417A5412700E6FE00258856 /* Assets.xcassets */; };
+		C417A5452700E6FE00258856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C417A5432700E6FE00258856 /* LaunchScreen.storyboard */; };
+		C417A5502700E6FE00258856 /* Ticket_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417A54F2700E6FE00258856 /* Ticket_AppTests.swift */; };
+		C417A55B2700E6FE00258856 /* Ticket_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417A55A2700E6FE00258856 /* Ticket_AppUITests.swift */; };
+		C417A5692701776600258856 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417A5682701776600258856 /* login.swift */; };
+		C417A56B2701AF7B00258856 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417A56A2701AF7B00258856 /* ViewController2.swift */; };
+		C417A56D27020C1100258856 /* DatasetHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417A56C27020C1100258856 /* DatasetHucreTableViewCell.swift */; };
+		C417A56F2702112200258856 /* VerisetDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417A56E2702112200258856 /* VerisetDetayViewController.swift */; };
+		C417A5752702138C00258856 /* Datasets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417A5742702138C00258856 /* Datasets.swift */; };
+		C417A577270215E600258856 /* DatasetsCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417A576270215E600258856 /* DatasetsCevap.swift */; };
+		C417A57B2702DECA00258856 /* EtiketCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417A57A2702DECA00258856 /* EtiketCevap.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C417A54C2700E6FE00258856 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C417A52D2700E6FE00258856 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C417A5342700E6FE00258856;
+			remoteInfo = "Ticket App";
+		};
+		C417A5572700E6FE00258856 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C417A52D2700E6FE00258856 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C417A5342700E6FE00258856;
+			remoteInfo = "Ticket App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C417A5352700E6FE00258856 /* Ticket App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ticket App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C417A5382700E6FE00258856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C417A53A2700E6FE00258856 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C417A53C2700E6FE00258856 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C417A53F2700E6FE00258856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C417A5412700E6FE00258856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C417A5442700E6FE00258856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C417A5462700E6FE00258856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C417A54B2700E6FE00258856 /* Ticket AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ticket AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C417A54F2700E6FE00258856 /* Ticket_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket_AppTests.swift; sourceTree = "<group>"; };
+		C417A5512700E6FE00258856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C417A5562700E6FE00258856 /* Ticket AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ticket AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C417A55A2700E6FE00258856 /* Ticket_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket_AppUITests.swift; sourceTree = "<group>"; };
+		C417A55C2700E6FE00258856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C417A5682701776600258856 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		C417A56A2701AF7B00258856 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		C417A56C27020C1100258856 /* DatasetHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetHucreTableViewCell.swift; sourceTree = "<group>"; };
+		C417A56E2702112200258856 /* VerisetDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerisetDetayViewController.swift; sourceTree = "<group>"; };
+		C417A5742702138C00258856 /* Datasets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datasets.swift; sourceTree = "<group>"; };
+		C417A576270215E600258856 /* DatasetsCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetsCevap.swift; sourceTree = "<group>"; };
+		C417A57A2702DECA00258856 /* EtiketCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiketCevap.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C417A5322700E6FE00258856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C417A5482700E6FE00258856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C417A5532700E6FE00258856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C417A52C2700E6FE00258856 = {
+			isa = PBXGroup;
+			children = (
+				C417A5372700E6FE00258856 /* Ticket App */,
+				C417A54E2700E6FE00258856 /* Ticket AppTests */,
+				C417A5592700E6FE00258856 /* Ticket AppUITests */,
+				C417A5362700E6FE00258856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C417A5362700E6FE00258856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C417A5352700E6FE00258856 /* Ticket App.app */,
+				C417A54B2700E6FE00258856 /* Ticket AppTests.xctest */,
+				C417A5562700E6FE00258856 /* Ticket AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C417A5372700E6FE00258856 /* Ticket App */ = {
+			isa = PBXGroup;
+			children = (
+				C417A5382700E6FE00258856 /* AppDelegate.swift */,
+				C417A5682701776600258856 /* login.swift */,
+				C417A53A2700E6FE00258856 /* SceneDelegate.swift */,
+				C417A53C2700E6FE00258856 /* ViewController.swift */,
+				C417A53E2700E6FE00258856 /* Main.storyboard */,
+				C417A5412700E6FE00258856 /* Assets.xcassets */,
+				C417A5432700E6FE00258856 /* LaunchScreen.storyboard */,
+				C417A5462700E6FE00258856 /* Info.plist */,
+				C417A56A2701AF7B00258856 /* ViewController2.swift */,
+				C417A56C27020C1100258856 /* DatasetHucreTableViewCell.swift */,
+				C417A56E2702112200258856 /* VerisetDetayViewController.swift */,
+				C417A5742702138C00258856 /* Datasets.swift */,
+				C417A576270215E600258856 /* DatasetsCevap.swift */,
+				C417A57A2702DECA00258856 /* EtiketCevap.swift */,
+			);
+			path = "Ticket App";
+			sourceTree = "<group>";
+		};
+		C417A54E2700E6FE00258856 /* Ticket AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C417A54F2700E6FE00258856 /* Ticket_AppTests.swift */,
+				C417A5512700E6FE00258856 /* Info.plist */,
+			);
+			path = "Ticket AppTests";
+			sourceTree = "<group>";
+		};
+		C417A5592700E6FE00258856 /* Ticket AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C417A55A2700E6FE00258856 /* Ticket_AppUITests.swift */,
+				C417A55C2700E6FE00258856 /* Info.plist */,
+			);
+			path = "Ticket AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C417A5342700E6FE00258856 /* Ticket App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C417A55F2700E6FE00258856 /* Build configuration list for PBXNativeTarget "Ticket App" */;
+			buildPhases = (
+				C417A5312700E6FE00258856 /* Sources */,
+				C417A5322700E6FE00258856 /* Frameworks */,
+				C417A5332700E6FE00258856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ticket App";
+			productName = "Ticket App";
+			productReference = C417A5352700E6FE00258856 /* Ticket App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C417A54A2700E6FE00258856 /* Ticket AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C417A5622700E6FE00258856 /* Build configuration list for PBXNativeTarget "Ticket AppTests" */;
+			buildPhases = (
+				C417A5472700E6FE00258856 /* Sources */,
+				C417A5482700E6FE00258856 /* Frameworks */,
+				C417A5492700E6FE00258856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C417A54D2700E6FE00258856 /* PBXTargetDependency */,
+			);
+			name = "Ticket AppTests";
+			productName = "Ticket AppTests";
+			productReference = C417A54B2700E6FE00258856 /* Ticket AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C417A5552700E6FE00258856 /* Ticket AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C417A5652700E6FE00258856 /* Build configuration list for PBXNativeTarget "Ticket AppUITests" */;
+			buildPhases = (
+				C417A5522700E6FE00258856 /* Sources */,
+				C417A5532700E6FE00258856 /* Frameworks */,
+				C417A5542700E6FE00258856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C417A5582700E6FE00258856 /* PBXTargetDependency */,
+			);
+			name = "Ticket AppUITests";
+			productName = "Ticket AppUITests";
+			productReference = C417A5562700E6FE00258856 /* Ticket AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C417A52D2700E6FE00258856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C417A5342700E6FE00258856 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C417A54A2700E6FE00258856 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C417A5342700E6FE00258856;
+					};
+					C417A5552700E6FE00258856 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C417A5342700E6FE00258856;
+					};
+				};
+			};
+			buildConfigurationList = C417A5302700E6FE00258856 /* Build configuration list for PBXProject "Ticket App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C417A52C2700E6FE00258856;
+			productRefGroup = C417A5362700E6FE00258856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C417A5342700E6FE00258856 /* Ticket App */,
+				C417A54A2700E6FE00258856 /* Ticket AppTests */,
+				C417A5552700E6FE00258856 /* Ticket AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C417A5332700E6FE00258856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C417A5452700E6FE00258856 /* LaunchScreen.storyboard in Resources */,
+				C417A5422700E6FE00258856 /* Assets.xcassets in Resources */,
+				C417A5402700E6FE00258856 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C417A5492700E6FE00258856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C417A5542700E6FE00258856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C417A5312700E6FE00258856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C417A56B2701AF7B00258856 /* ViewController2.swift in Sources */,
+				C417A53D2700E6FE00258856 /* ViewController.swift in Sources */,
+				C417A5752702138C00258856 /* Datasets.swift in Sources */,
+				C417A5392700E6FE00258856 /* AppDelegate.swift in Sources */,
+				C417A56F2702112200258856 /* VerisetDetayViewController.swift in Sources */,
+				C417A57B2702DECA00258856 /* EtiketCevap.swift in Sources */,
+				C417A53B2700E6FE00258856 /* SceneDelegate.swift in Sources */,
+				C417A56D27020C1100258856 /* DatasetHucreTableViewCell.swift in Sources */,
+				C417A577270215E600258856 /* DatasetsCevap.swift in Sources */,
+				C417A5692701776600258856 /* login.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C417A5472700E6FE00258856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C417A5502700E6FE00258856 /* Ticket_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C417A5522700E6FE00258856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C417A55B2700E6FE00258856 /* Ticket_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C417A54D2700E6FE00258856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C417A5342700E6FE00258856 /* Ticket App */;
+			targetProxy = C417A54C2700E6FE00258856 /* PBXContainerItemProxy */;
+		};
+		C417A5582700E6FE00258856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C417A5342700E6FE00258856 /* Ticket App */;
+			targetProxy = C417A5572700E6FE00258856 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C417A53E2700E6FE00258856 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C417A53F2700E6FE00258856 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C417A5432700E6FE00258856 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C417A5442700E6FE00258856 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C417A55D2700E6FE00258856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C417A55E2700E6FE00258856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C417A5602700E6FE00258856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ticket App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tiryakioglu.Ticket-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C417A5612700E6FE00258856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ticket App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tiryakioglu.Ticket-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C417A5632700E6FE00258856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ticket AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tiryakioglu.Ticket-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ticket App.app/Ticket App";
+			};
+			name = Debug;
+		};
+		C417A5642700E6FE00258856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ticket AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tiryakioglu.Ticket-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ticket App.app/Ticket App";
+			};
+			name = Release;
+		};
+		C417A5662700E6FE00258856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ticket AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tiryakioglu.Ticket-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ticket App";
+			};
+			name = Debug;
+		};
+		C417A5672700E6FE00258856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ticket AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tiryakioglu.Ticket-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ticket App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C417A5302700E6FE00258856 /* Build configuration list for PBXProject "Ticket App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C417A55D2700E6FE00258856 /* Debug */,
+				C417A55E2700E6FE00258856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C417A55F2700E6FE00258856 /* Build configuration list for PBXNativeTarget "Ticket App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C417A5602700E6FE00258856 /* Debug */,
+				C417A5612700E6FE00258856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C417A5622700E6FE00258856 /* Build configuration list for PBXNativeTarget "Ticket AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C417A5632700E6FE00258856 /* Debug */,
+				C417A5642700E6FE00258856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C417A5652700E6FE00258856 /* Build configuration list for PBXNativeTarget "Ticket AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C417A5662700E6FE00258856 /* Debug */,
+				C417A5672700E6FE00258856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C417A52D2700E6FE00258856 /* Project object */;
+}
